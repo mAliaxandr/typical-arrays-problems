@@ -34,7 +34,6 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
-    console.log('avg ---', array);
     if (array) {
         if (array.length == 0) {
             return 0
